@@ -1,8 +1,12 @@
 import React from 'react';
-import './styles.scss';
+import './home.scss';
 
 const Home: React.FC = () => {
-  return <div>Home</div>;
+  return (
+    <div className='home'>
+      <h1 className='tittle'>Maletta</h1>
+    </div>
+  );
 };
 
 export default Home;
